@@ -1,0 +1,42 @@
+I, [2014-06-26T15:20:52.170519 #5394]  INFO -- : Cleared interactions before example "MyServiceProviderClient get_person returns a Person"
+I, [2014-06-26T15:20:52.175476 #5394]  INFO -- : Registered expected interaction GET /person
+D, [2014-06-26T15:20:52.175744 #5394] DEBUG -- : {
+  "description": "a request for person",
+  "provider_state": "person exists",
+  "request": {
+    "method": "get",
+    "path": "/person"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "name": "Victor"
+    }
+  }
+}
+I, [2014-06-26T15:20:52.180849 #5394]  INFO -- : Received request GET /person
+D, [2014-06-26T15:20:52.181011 #5394] DEBUG -- : {
+  "method": "get",
+  "path": "/person",
+  "query": "",
+  "headers": {
+    "Connection": "close",
+    "Host": "localhost:1234",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2014-06-26T15:20:52.181218 #5394]  INFO -- : Found matching response for GET /person
+D, [2014-06-26T15:20:52.181297 #5394] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "name": "Victor"
+  }
+}
+I, [2014-06-26T15:20:52.187312 #5394]  INFO -- : Verifying - interactions matched for example "MyServiceProviderClient get_person returns a Person"
+I, [2014-06-26T15:20:52.192732 #5394]  INFO -- : Writing pact with details {:consumer=>{:name=>"My Service Consumer"}, :provider=>{:name=>"My Service Provider"}, :pactfile_write_mode=>"overwrite"}
