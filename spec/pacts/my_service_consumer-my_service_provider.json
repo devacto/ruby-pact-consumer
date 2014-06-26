@@ -1,0 +1,30 @@
+{
+  "provider": {
+    "name": "My Service Provider"
+  },
+  "consumer": {
+    "name": "My Service Consumer"
+  },
+  "interactions": [
+    {
+      "description": "a request for person",
+      "provider_state": "person exists",
+      "request": {
+        "method": "get",
+        "path": "/person"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "Victor"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.0.0"
+  }
+}
