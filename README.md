@@ -1,4 +1,5 @@
-ruby-pact-consumer
-==================
+## Pact Test - Consumer
 
-Consumer service project to test Pact.
+[Pact](https://github.com/realestate-com-au/pact) defines a pact between service consumers and providers, enabling "consumer driven contract" testing.
+
+This is the consumer project. I merely followed [this](https://github.com/realestate-com-au/pact) tutorial.
