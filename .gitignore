@@ -38,8 +38,8 @@ build/
 *.iml
 
 # Ignore log files and log folders
-log/
+*/log/
 *.log
 
-## spec/pacts should be ignored from both provider and consumer
-spec/pacts
+# Ignore tmp folder
+*/tmp/
