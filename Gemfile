@@ -1,9 +1,12 @@
 source "https://rubygems.org"
 
-gem 'rake'
-gem 'httparty'
-gem 'rack'
+group :development, :test do
+  gem 'rspec'
+  gem 'pact', path: '../'
+  gem 'pry'
+end
 
-gem 'sinatra', '1.1.0'
-gem 'json', '1.8.0'
-gem 'pact', '~> 1.3.0'
+gem 'rake'
+gem 'rack'
+gem 'httparty'
+gem 'json'
