@@ -42,4 +42,4 @@ log/
 *.log
 
 ## spec/pacts should be ignored from both provider and consumer
-## log/ should be ignored from both provider and consumer
+spec/pacts
