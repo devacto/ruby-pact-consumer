@@ -1,5 +1,5 @@
 require 'sequel'
-require_relative '../../../PersonService/db/person_db.sqlite3'
+require_relative 'db'
 
 module PersonService
   class PersonRepository
