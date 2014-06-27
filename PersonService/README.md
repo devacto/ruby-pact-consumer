@@ -9,13 +9,16 @@ Person Service has a database. When you give it a "GET" request like
 ### Creating the database
 
 Go to the 'db' folder of this module. In the 'db' folder, run the following
-commands.
+commands:
 
-```sqlite
+```
 sqlite3 person_db.sqlite3
+```
 
-CREATE TABLE IF NOT EXISTS Persons(Id INTEGER PRIMARY KEY, Name TEXT, SALARY 
-TEXT);
+In the SQLite3 console, run the following commands:
+
+```
+CREATE TABLE IF NOT EXISTS Persons(Id INTEGER PRIMARY KEY, Name TEXT, SALARY TEXT);
 
 INSERT INTO Persons VALUES(1, 'Victor', '1000');
 ```
