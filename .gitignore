@@ -36,3 +36,10 @@ build/
 # RubyMine overheads
 .idea/
 *.iml
+
+# Ignore log files and log folders
+log/
+*.log
+
+## spec/pacts should be ignored from both provider and consumer
+## log/ should be ignored from both provider and consumer
