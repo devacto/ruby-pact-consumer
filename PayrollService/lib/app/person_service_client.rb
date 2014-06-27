@@ -6,11 +6,12 @@ require_relative '../../lib/app/models/person'
 
 class PersonServiceClient
   include HTTParty
-  base_uri 'http://localhost'
+  base_uri 'http://localhost:1234'
 
-  def get_person
-    name = JSON.parse(self.class.get("/person").body)['name']
-    salary = JSON.parse(self.class.get("/person").body)['salary']
+  def get_person_by_name (name)
+    response = JSON.parse(self.class.get("/persons/#{name}").body)
+    name = response['name']
+    salary = response['salary']
     Person.new(name, salary)
   end
 end

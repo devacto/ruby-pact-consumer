@@ -12,14 +12,14 @@ describe PersonServiceClient, :pact => true do
 
   subject { PersonServiceClient.new }
 
-  describe "get_person" do
+  describe ".get_person_by_name" do
     before do
       person_service.given("person exists").
           upon_receiving("a request for person").
-          with(method: 'get', path: '/person').
+          with(method: 'get', path: '/persons/Victor').
           will_respond_with(
             status: 200,
-            headers: {'Content-Type' => 'application/json'},
+            headers: {'Content-Type' => 'application/json;charset=utf-8'},
             body: {
                 name: 'Victor',
                 salary: '1000'
@@ -27,7 +27,7 @@ describe PersonServiceClient, :pact => true do
     end
 
     it "returns a Person" do
-      expect(subject.get_person).to eq(Person.new('Victor', '1000'))
+      expect(subject.get_person_by_name('Victor')).to eq(Person.new('Victor', '1000'))
     end
   end
 

@@ -2,6 +2,10 @@
 # This provider state will ensure that the correct data exists in the...
 # ...repository.
 
+require 'sequel'
+require 'person_service/db'
+require 'person_service/person_repository'
+
 Pact.provider_states_for "Payroll Service" do
 
   set_up do
