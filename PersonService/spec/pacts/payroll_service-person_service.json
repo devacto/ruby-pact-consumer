@@ -1,0 +1,31 @@
+{
+  "provider": {
+    "name": "Person Service"
+  },
+  "consumer": {
+    "name": "Payroll Service"
+  },
+  "interactions": [
+    {
+      "description": "a request for person",
+      "provider_state": "person exists",
+      "request": {
+        "method": "get",
+        "path": "/person"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "Victor",
+          "salary": "1000"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecificationVersion": "1.0.0"
+  }
+}
