@@ -7,11 +7,6 @@ class Person
     @salary = salary
   end
 
-  def initialize attributes
-    @name = attributes[:name]
-    @salary = attributes[:salary]
-  end
-
   def == other
     other.is_a?(Person) && other.name == name
   end
