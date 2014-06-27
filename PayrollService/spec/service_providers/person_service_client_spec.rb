@@ -19,7 +19,7 @@ describe PersonServiceClient, :pact => true do
           with(method: 'get', path: '/persons/Victor').
           will_respond_with(
             status: 200,
-            headers: {'Content-Type' => 'application/json;charset=utf-8'},
+            headers: {'Content-Type' => 'application/json'},
             body: {
                 name: 'Victor',
                 salary: '1000'

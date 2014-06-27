@@ -18,7 +18,7 @@ module PersonService
     get '/persons/:name' do
       person = PersonRepository.find_person_by_name(params[:name])
       if (person == PersonRepository.find_person_by_name(params[:name]))
-        content_type 'application/json'
+        content_type :json
         person.to_json
       else
         status 404
