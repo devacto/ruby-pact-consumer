@@ -1,0 +1,91 @@
+# Logfile created on 2014-06-26 15:03:03 +1000 by logger.rb/36483
+I, [2014-06-26T15:03:03.663007 #4960]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007f9d6c1e6728> on port 1234...
+I, [2014-06-26T15:03:03.791891 #4960]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:03:03.792448 #4960]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:03:03.807901 #4960]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:03:03.816985 #4960] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:03:36.105161 #5044]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007fdcb48ca828> on port 1234...
+I, [2014-06-26T15:03:36.239018 #5044]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:03:36.239491 #5044]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:03:36.254787 #5044]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:03:36.263993 #5044] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:12:22.883128 #5147]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007fdd829fa198> on port 1234...
+I, [2014-06-26T15:12:23.010837 #5147]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:12:23.011307 #5147]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:12:23.026951 #5147]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:12:23.036454 #5147] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:12:47.622811 #5168]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007fc4648ddff8> on port 1234...
+I, [2014-06-26T15:12:47.755657 #5168]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:12:47.756113 #5168]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:12:47.771723 #5168]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:12:47.780565 #5168] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:16:37.958391 #5231]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007fc1aa9ae4a8> on port 1234...
+I, [2014-06-26T15:16:38.094475 #5231]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:16:38.094920 #5231]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:16:38.111847 #5231]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:16:38.122172 #5231] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:17:12.641894 #5256]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007fdf431b65c8> on port 1234...
+I, [2014-06-26T15:17:12.776575 #5256]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:17:12.777032 #5256]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:17:12.792603 #5256]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:17:12.801723 #5256] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:19:05.426596 #5301]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007fe813906458> on port 1234...
+I, [2014-06-26T15:19:05.554239 #5301]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:19:05.554695 #5301]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:19:05.570262 #5301]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:19:05.579357 #5301] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:20:41.475154 #5380]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007f82f11524c8> on port 1234...
+I, [2014-06-26T15:20:41.610153 #5380]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:20:41.610589 #5380]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:20:41.626755 #5380]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:20:41.636133 #5380] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T15:20:51.724423 #5394]  INFO -- : Starting app My Service Provider #<Pact::Consumer::MockService:0x007ff0b91be2a0> on port 1234...
+I, [2014-06-26T15:20:52.165952 #5394]  INFO -- : Started with pid unknown
+I, [2014-06-26T15:20:52.166485 #5394]  INFO -- : Clearing all expectations
+I, [2014-06-26T15:20:52.183160 #5394]  INFO -- : Verifying interactions for MyServiceProviderClient get_person returns a Person
+D, [2014-06-26T15:20:52.192902 #5394] DEBUG -- : Updating pact file for My Service Provider at /Users/victor/Developer/Codes/Ruby/PactTestConsumer/spec/pacts/my_service_consumer-my_service_provider.json
+I, [2014-06-26T16:09:19.511077 #6129]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:09:19.511708 #6129]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:09:19.512168 #6129]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:12:25.252609 #6275]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:12:25.253223 #6275]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:12:25.253675 #6275]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:23:15.696540 #6344]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:23:15.697619 #6344]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:23:15.698297 #6344]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:24:31.626208 #6368]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:24:31.626428 #6368]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:24:31.626468 #6368] DEBUG -- : body :
+I, [2014-06-26T16:24:31.668238 #6368]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:24:31.668409 #6368]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:24:31.668450 #6368] DEBUG -- : body :
+I, [2014-06-26T16:24:31.669734 #6368]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:24:31.669851 #6368]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:24:31.669889 #6368] DEBUG -- : body :
+I, [2014-06-26T16:29:03.410097 #6407]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:29:03.410288 #6407]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:29:03.410327 #6407] DEBUG -- : body :
+I, [2014-06-26T16:29:03.421187 #6407]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:29:03.421429 #6407]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:29:03.421492 #6407] DEBUG -- : body :
+I, [2014-06-26T16:29:03.422961 #6407]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:29:03.423091 #6407]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:29:03.423148 #6407] DEBUG -- : body :
+I, [2014-06-26T16:35:17.347262 #6493]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:35:17.347463 #6493]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:35:17.347503 #6493] DEBUG -- : body :
+I, [2014-06-26T16:35:17.358208 #6493]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:35:17.358380 #6493]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:35:17.358422 #6493] DEBUG -- : body :
+I, [2014-06-26T16:35:17.359436 #6493]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:35:17.359527 #6493]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:35:17.359562 #6493] DEBUG -- : body :
+I, [2014-06-26T16:36:28.394961 #6512]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has status code 200'
+I, [2014-06-26T16:36:28.395151 #6512]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:36:28.395217 #6512] DEBUG -- : body :
+I, [2014-06-26T16:36:28.406039 #6512]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which has a matching body'
+I, [2014-06-26T16:36:28.406211 #6512]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:36:28.406250 #6512] DEBUG -- : body :
+I, [2014-06-26T16:36:28.407284 #6512]  INFO -- : Running example 'Verifying a pact between My Service Consumer and My Service Provider Given person exists a request for person with GET /person returns a response which includes headers "Content-Type" with value "application/json"'
+I, [2014-06-26T16:36:28.407382 #6512]  INFO -- : Sending GET request to path: "/person" with headers: {}, see debug logs for body
+D, [2014-06-26T16:36:28.407418 #6512] DEBUG -- : body :

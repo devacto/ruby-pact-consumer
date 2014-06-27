@@ -1,13 +1,13 @@
-require_relative '../../lib/my_service_provider_client'
+require_relative '../../lib/person_service_client'
 require_relative 'pact_helper'
 
-describe MyServiceProviderClient, :pact => true do
+describe PersonServiceClient, :pact => true do
 
   before do
-    MyServiceProviderClient.base_uri 'localhost:1234'
+    PersonServiceClient.base_uri('http://localhost:1234')
   end
 
-  subject { MyServiceProviderClient.new }
+  subject { PersonServiceClient.new }
 
   describe "get_person" do
     before do

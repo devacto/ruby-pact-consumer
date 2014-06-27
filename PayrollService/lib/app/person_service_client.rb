@@ -1,7 +1,7 @@
 require 'httparty'
 require_relative '../app/models/person'
 
-class MyServiceProviderClient
+class PersonServiceClient
   include HTTParty
   base_uri 'http://localhost'
 
